@@ -1,0 +1,11 @@
+/home/usuario/Imagens/teste/teste/LM_BACK/tests/LivroMente.Tests/bin/Debug/net7.0/LivroMente.Tests.deps.json
+/home/usuario/Imagens/teste/teste/LM_BACK/tests/LivroMente.Tests/bin/Debug/net7.0/LivroMente.Tests.dll
+/home/usuario/Imagens/teste/teste/LM_BACK/tests/LivroMente.Tests/bin/Debug/net7.0/LivroMente.Tests.pdb
+/home/usuario/Imagens/teste/teste/LM_BACK/tests/LivroMente.Tests/obj/Debug/net7.0/LivroMente.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/home/usuario/Imagens/teste/teste/LM_BACK/tests/LivroMente.Tests/obj/Debug/net7.0/LivroMente.Tests.AssemblyInfoInputs.cache
+/home/usuario/Imagens/teste/teste/LM_BACK/tests/LivroMente.Tests/obj/Debug/net7.0/LivroMente.Tests.AssemblyInfo.cs
+/home/usuario/Imagens/teste/teste/LM_BACK/tests/LivroMente.Tests/obj/Debug/net7.0/LivroMente.Tests.csproj.CoreCompileInputs.cache
+/home/usuario/Imagens/teste/teste/LM_BACK/tests/LivroMente.Tests/obj/Debug/net7.0/LivroMente.Tests.dll
+/home/usuario/Imagens/teste/teste/LM_BACK/tests/LivroMente.Tests/obj/Debug/net7.0/refint/LivroMente.Tests.dll
+/home/usuario/Imagens/teste/teste/LM_BACK/tests/LivroMente.Tests/obj/Debug/net7.0/LivroMente.Tests.pdb
+/home/usuario/Imagens/teste/teste/LM_BACK/tests/LivroMente.Tests/obj/Debug/net7.0/ref/LivroMente.Tests.dll
