@@ -1,0 +1,17 @@
+/home/usuario/Imagens/teste/teste/LM_BACK/src/LivroMente.Infrastructure/bin/Debug/net7.0/LivroMente.Infrastructure.deps.json
+/home/usuario/Imagens/teste/teste/LM_BACK/src/LivroMente.Infrastructure/bin/Debug/net7.0/LivroMente.Infrastructure.dll
+/home/usuario/Imagens/teste/teste/LM_BACK/src/LivroMente.Infrastructure/bin/Debug/net7.0/LivroMente.Infrastructure.pdb
+/home/usuario/Imagens/teste/teste/LM_BACK/src/LivroMente.Infrastructure/obj/Debug/net7.0/LivroMente.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/usuario/Imagens/teste/teste/LM_BACK/src/LivroMente.Infrastructure/obj/Debug/net7.0/LivroMente.Infrastructure.AssemblyInfoInputs.cache
+/home/usuario/Imagens/teste/teste/LM_BACK/src/LivroMente.Infrastructure/obj/Debug/net7.0/LivroMente.Infrastructure.AssemblyInfo.cs
+/home/usuario/Imagens/teste/teste/LM_BACK/src/LivroMente.Infrastructure/obj/Debug/net7.0/LivroMente.Infrastructure.csproj.CoreCompileInputs.cache
+/home/usuario/Imagens/teste/teste/LM_BACK/src/LivroMente.Infrastructure/obj/Debug/net7.0/LivroMente.Infrastructure.dll
+/home/usuario/Imagens/teste/teste/LM_BACK/src/LivroMente.Infrastructure/obj/Debug/net7.0/refint/LivroMente.Infrastructure.dll
+/home/usuario/Imagens/teste/teste/LM_BACK/src/LivroMente.Infrastructure/obj/Debug/net7.0/LivroMente.Infrastructure.pdb
+/home/usuario/Imagens/teste/teste/LM_BACK/src/LivroMente.Infrastructure/obj/Debug/net7.0/ref/LivroMente.Infrastructure.dll
+/home/usuario/Imagens/teste/teste/LM_BACK/src/LivroMente.Infrastructure/obj/Debug/net7.0/LivroMente.Infrastructure.csproj.AssemblyReference.cache
+/home/usuario/Imagens/teste/teste/LM_BACK/src/LivroMente.Infrastructure/bin/Debug/net7.0/LivroMente.Infrastructure.runtimeconfig.json
+/home/usuario/Imagens/teste/teste/LM_BACK/src/LivroMente.Infrastructure/bin/Debug/net7.0/LivroMente.Domain.dll
+/home/usuario/Imagens/teste/teste/LM_BACK/src/LivroMente.Infrastructure/bin/Debug/net7.0/LivroMente.Domain.pdb
+/home/usuario/Imagens/teste/teste/LM_BACK/src/LivroMente.Infrastructure/obj/Debug/net7.0/LivroMente.Infrastructure.csproj.CopyComplete
+/home/usuario/Imagens/teste/teste/LM_BACK/src/LivroMente.Infrastructure/obj/Debug/net7.0/LivroMente.Infrastructure.genruntimeconfig.cache
