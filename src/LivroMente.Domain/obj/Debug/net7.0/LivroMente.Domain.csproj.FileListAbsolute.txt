@@ -10,3 +10,15 @@
 /home/usuario/Imagens/teste/teste/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/refint/LivroMente.Domain.dll
 /home/usuario/Imagens/teste/teste/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/LivroMente.Domain.pdb
 /home/usuario/Imagens/teste/teste/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/ref/LivroMente.Domain.dll
+D:\Fatec\2023\Jeferson\LivroMente_Back\LM_BACK\src\LivroMente.Domain\bin\Debug\net7.0\LivroMente.Domain.deps.json
+D:\Fatec\2023\Jeferson\LivroMente_Back\LM_BACK\src\LivroMente.Domain\bin\Debug\net7.0\LivroMente.Domain.dll
+D:\Fatec\2023\Jeferson\LivroMente_Back\LM_BACK\src\LivroMente.Domain\bin\Debug\net7.0\LivroMente.Domain.pdb
+D:\Fatec\2023\Jeferson\LivroMente_Back\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.csproj.AssemblyReference.cache
+D:\Fatec\2023\Jeferson\LivroMente_Back\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fatec\2023\Jeferson\LivroMente_Back\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.AssemblyInfoInputs.cache
+D:\Fatec\2023\Jeferson\LivroMente_Back\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.AssemblyInfo.cs
+D:\Fatec\2023\Jeferson\LivroMente_Back\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.csproj.CoreCompileInputs.cache
+D:\Fatec\2023\Jeferson\LivroMente_Back\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.dll
+D:\Fatec\2023\Jeferson\LivroMente_Back\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\refint\LivroMente.Domain.dll
+D:\Fatec\2023\Jeferson\LivroMente_Back\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.pdb
+D:\Fatec\2023\Jeferson\LivroMente_Back\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\ref\LivroMente.Domain.dll

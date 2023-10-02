@@ -1,3 +1,9 @@
+using LivroMente.Domain.Models.BookModel;
+using LivroMente.Domain.Models.CategoryBookModel;
+using LivroMente.Infrastructure.Data;
+using LivroMente.Infrastructure.Repository;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +12,13 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+builder.Services.AddDbContext<ApplicationDataContext>(options =>
+options.UseSqlite(builder.Configuration.GetConnectionString("DefaultContext")));
+
+builder.Services.AddScoped<ICategoryBookRepository, CategoryBookRepository>();
+builder.Services.AddScoped<IBookRepository, BookRepository>();
 
 var app = builder.Build();
 

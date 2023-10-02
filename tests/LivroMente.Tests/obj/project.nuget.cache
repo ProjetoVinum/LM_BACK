@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FS3MI2Kc6kikGnRJD1YrJzfqBEEOjnmcKpUF0JqP7cGmgL7PSR5ot1MUubHm77DSUqEIihL6EtOSZjaool5q1Q==",
+  "dgSpecHash": "YPjtlwprt3+7iER/NNkVTnO+7X+GV6yO7ZEoZtcOaMj0BwpUw27N00FdX/NSnwpyjxglAOruIDv4raAwyOgu7A==",
   "success": true,
-  "projectFilePath": "/home/usuario/Imagens/teste/teste/LM_BACK/tests/LivroMente.Tests/LivroMente.Tests.csproj",
+  "projectFilePath": "D:\\Fatec\\2023\\Jeferson\\LivroMente_Back\\LM_BACK\\tests\\LivroMente.Tests\\LivroMente.Tests.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
