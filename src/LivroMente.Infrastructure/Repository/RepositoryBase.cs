@@ -1,34 +1,55 @@
 using LivroMente.Domain.Core.Data;
+using LivroMente.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace LivroMente.Infrastructure.Repository
 {
     public class RepositoryBase<TEntity, TKey> : IRepository<TEntity, TKey> where TEntity : class
     {
-        public IUnitOfWork UnitOfWork => throw new NotImplementedException();
+        protected readonly ApplicationDataContext _applicationDataContext;
+        protected readonly DbSet<TEntity> _entity;
+         public virtual IUnitOfWork UnitOfWork => _applicationDataContext;
+         public RepositoryBase(ApplicationDataContext applicationDataContext)
+        {
+            _applicationDataContext = applicationDataContext;
+            _entity= _applicationDataContext.Set<TEntity>();
+        }
+        //public IUnitOfWork UnitOfWork => throw new NotImplementedException();
 
         public void Add(TEntity entity)
         {
-            throw new NotImplementedException();
+             _entity.Add(entity);
         }
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+             _applicationDataContext.Dispose();
         }
 
-        public IQueryable<TEntity> GetAll()
+        public async Task<IQueryable<TEntity>> GetAll()
         {
-            throw new NotImplementedException();
+           return _entity;
         }
 
         public TEntity GetbyId(TKey id)
         {
-            throw new NotImplementedException();
+            return _entity.Find(id);
         }
 
         public void Update(TEntity entity)
         {
-            throw new NotImplementedException();
+             _entity.Update(entity);
         }
+
+         public async Task<int> SaveChangesAsync()
+        {
+            var result = await _applicationDataContext.SaveChangesAsync().ConfigureAwait(false);
+            return result;
+        }
+
+        // Task<IQueryable<TEntity>> IRepository<TEntity, TKey>.GetAll()
+        // {
+        //     throw new NotImplementedException();
+        // }
     }
 }
