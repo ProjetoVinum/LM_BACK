@@ -72,7 +72,44 @@ namespace LivroMente.API.Controllers
             var entity =   _categoryBookRepository.GetbyId(CategoryId);
             return Ok(entity);
             
+        }
 
+        [HttpPut("{CategoryId}")]
+        public async Task<IActionResult> Put(Guid CategoryId,[FromBody] CategoryBookViewModel request)
+        {
+             var entity =   _categoryBookRepository.GetbyId(CategoryId);
+
+             if (entity == null) return NotFound();
+
+             var category = new  CategoryBookViewModel
+             {
+                Id = entity.Id,
+                Description= request.Description,
+                IsFree= request.IsFree,
+             }; 
+              
+              _categoryBookRepository.Update(entity);
+
+            if(await _categoryBookRepository.UnitOfWork.SaveChangesAsync() > 0)
+            return Created($"api/CategoryBook/{category.Id}", category);
+
+            return BadRequest();
+        }
+
+        [HttpDelete ("{CategoryId}")]
+        public async Task<IActionResult> Delete(Guid CategoryId)
+        {
+            var entity = _categoryBookRepository.GetbyId(CategoryId);
+           
+             if (entity == null) return NotFound();
+            _categoryBookRepository.Delete(entity);
+
+          var result =  await _categoryBookRepository.UnitOfWork.SaveChangesAsync() > 0;
+
+          if(result)
+            return Ok();
+            
+            return BadRequest();  
         }
 
     }

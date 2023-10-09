@@ -22,3 +22,15 @@ D:\Fatec\2023\Jeferson\LivroMente_Back\LM_BACK\src\LivroMente.Domain\obj\Debug\n
 D:\Fatec\2023\Jeferson\LivroMente_Back\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\refint\LivroMente.Domain.dll
 D:\Fatec\2023\Jeferson\LivroMente_Back\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.pdb
 D:\Fatec\2023\Jeferson\LivroMente_Back\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\ref\LivroMente.Domain.dll
+C:\Users\201691124\Desktop\P.I\LM_BACK\src\LivroMente.Domain\bin\Debug\net7.0\LivroMente.Domain.deps.json
+C:\Users\201691124\Desktop\P.I\LM_BACK\src\LivroMente.Domain\bin\Debug\net7.0\LivroMente.Domain.dll
+C:\Users\201691124\Desktop\P.I\LM_BACK\src\LivroMente.Domain\bin\Debug\net7.0\LivroMente.Domain.pdb
+C:\Users\201691124\Desktop\P.I\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.csproj.AssemblyReference.cache
+C:\Users\201691124\Desktop\P.I\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\201691124\Desktop\P.I\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.AssemblyInfoInputs.cache
+C:\Users\201691124\Desktop\P.I\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.AssemblyInfo.cs
+C:\Users\201691124\Desktop\P.I\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.csproj.CoreCompileInputs.cache
+C:\Users\201691124\Desktop\P.I\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.dll
+C:\Users\201691124\Desktop\P.I\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\refint\LivroMente.Domain.dll
+C:\Users\201691124\Desktop\P.I\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.pdb
+C:\Users\201691124\Desktop\P.I\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\ref\LivroMente.Domain.dll

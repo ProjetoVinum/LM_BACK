@@ -43,8 +43,12 @@ namespace LivroMente.Infrastructure.Repository
 
          public async Task<int> SaveChangesAsync()
         {
-            var result = await _applicationDataContext.SaveChangesAsync().ConfigureAwait(false);
-            return result;
+            return await _applicationDataContext.SaveChangesAsync().ConfigureAwait(false);
+        }
+
+        public void Delete(TEntity entity)
+        {
+              _entity.Remove(entity);
         }
 
         // Task<IQueryable<TEntity>> IRepository<TEntity, TKey>.GetAll()
