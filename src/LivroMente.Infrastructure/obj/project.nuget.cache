@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W58+kENYcWYrU8kUQcRiPxFxBtHw3mV1vw7sPowrk0l46P/XJxbxvoLE6fCk7XCuc4qv18txU3zQP85gowx4yw==",
+  "dgSpecHash": "u5jEYY72unAI0Bmfq2q9dMIgGM0E8bZtHN8KpJ/aTn7OXsES5Z3xL5fn/wAxjZ5WrJfgO9KwXDzIH320SNN3bw==",
   "success": true,
-  "projectFilePath": "D:\\Fatec\\2023\\Jeferson\\LivroMente_Back\\LM_BACK\\src\\LivroMente.Infrastructure\\LivroMente.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\201691124\\Desktop\\P.I\\LM_BACK\\src\\LivroMente.Infrastructure\\LivroMente.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\201691124\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\201691124\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

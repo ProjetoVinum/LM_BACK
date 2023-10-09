@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Fatec\\2023\\Jeferson\\LivroMente_Back\\LM_BACK\\src\\LivroMente.API\\LivroMente.API.csproj": {}
+    "C:\\Users\\201691124\\Desktop\\P.I\\LM_BACK\\src\\LivroMente.API\\LivroMente.API.csproj": {}
   },
   "projects": {
-    "D:\\Fatec\\2023\\Jeferson\\LivroMente_Back\\LM_BACK\\src\\LivroMente.API\\LivroMente.API.csproj": {
+    "C:\\Users\\201691124\\Desktop\\P.I\\LM_BACK\\src\\LivroMente.API\\LivroMente.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Fatec\\2023\\Jeferson\\LivroMente_Back\\LM_BACK\\src\\LivroMente.API\\LivroMente.API.csproj",
+        "projectUniqueName": "C:\\Users\\201691124\\Desktop\\P.I\\LM_BACK\\src\\LivroMente.API\\LivroMente.API.csproj",
         "projectName": "LivroMente.API",
-        "projectPath": "D:\\Fatec\\2023\\Jeferson\\LivroMente_Back\\LM_BACK\\src\\LivroMente.API\\LivroMente.API.csproj",
+        "projectPath": "C:\\Users\\201691124\\Desktop\\P.I\\LM_BACK\\src\\LivroMente.API\\LivroMente.API.csproj",
         "packagesPath": "C:\\Users\\201691124\\.nuget\\packages\\",
-        "outputPath": "D:\\Fatec\\2023\\Jeferson\\LivroMente_Back\\LM_BACK\\src\\LivroMente.API\\obj\\",
+        "outputPath": "C:\\Users\\201691124\\Desktop\\P.I\\LM_BACK\\src\\LivroMente.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Fatec\\2023\\Jeferson\\LivroMente_Back\\LM_BACK\\src\\LivroMente.Domain\\LivroMente.Domain.csproj": {
-                "projectPath": "D:\\Fatec\\2023\\Jeferson\\LivroMente_Back\\LM_BACK\\src\\LivroMente.Domain\\LivroMente.Domain.csproj"
+              "C:\\Users\\201691124\\Desktop\\P.I\\LM_BACK\\src\\LivroMente.Domain\\LivroMente.Domain.csproj": {
+                "projectPath": "C:\\Users\\201691124\\Desktop\\P.I\\LM_BACK\\src\\LivroMente.Domain\\LivroMente.Domain.csproj"
               },
-              "D:\\Fatec\\2023\\Jeferson\\LivroMente_Back\\LM_BACK\\src\\LivroMente.Infrastructure\\LivroMente.Infrastructure.csproj": {
-                "projectPath": "D:\\Fatec\\2023\\Jeferson\\LivroMente_Back\\LM_BACK\\src\\LivroMente.Infrastructure\\LivroMente.Infrastructure.csproj"
+              "C:\\Users\\201691124\\Desktop\\P.I\\LM_BACK\\src\\LivroMente.Infrastructure\\LivroMente.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\201691124\\Desktop\\P.I\\LM_BACK\\src\\LivroMente.Infrastructure\\LivroMente.Infrastructure.csproj"
               }
             }
           }
@@ -107,14 +107,14 @@
         }
       }
     },
-    "D:\\Fatec\\2023\\Jeferson\\LivroMente_Back\\LM_BACK\\src\\LivroMente.Domain\\LivroMente.Domain.csproj": {
+    "C:\\Users\\201691124\\Desktop\\P.I\\LM_BACK\\src\\LivroMente.Domain\\LivroMente.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Fatec\\2023\\Jeferson\\LivroMente_Back\\LM_BACK\\src\\LivroMente.Domain\\LivroMente.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\201691124\\Desktop\\P.I\\LM_BACK\\src\\LivroMente.Domain\\LivroMente.Domain.csproj",
         "projectName": "LivroMente.Domain",
-        "projectPath": "D:\\Fatec\\2023\\Jeferson\\LivroMente_Back\\LM_BACK\\src\\LivroMente.Domain\\LivroMente.Domain.csproj",
+        "projectPath": "C:\\Users\\201691124\\Desktop\\P.I\\LM_BACK\\src\\LivroMente.Domain\\LivroMente.Domain.csproj",
         "packagesPath": "C:\\Users\\201691124\\.nuget\\packages\\",
-        "outputPath": "D:\\Fatec\\2023\\Jeferson\\LivroMente_Back\\LM_BACK\\src\\LivroMente.Domain\\obj\\",
+        "outputPath": "C:\\Users\\201691124\\Desktop\\P.I\\LM_BACK\\src\\LivroMente.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -172,14 +172,14 @@
         }
       }
     },
-    "D:\\Fatec\\2023\\Jeferson\\LivroMente_Back\\LM_BACK\\src\\LivroMente.Infrastructure\\LivroMente.Infrastructure.csproj": {
+    "C:\\Users\\201691124\\Desktop\\P.I\\LM_BACK\\src\\LivroMente.Infrastructure\\LivroMente.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Fatec\\2023\\Jeferson\\LivroMente_Back\\LM_BACK\\src\\LivroMente.Infrastructure\\LivroMente.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\201691124\\Desktop\\P.I\\LM_BACK\\src\\LivroMente.Infrastructure\\LivroMente.Infrastructure.csproj",
         "projectName": "LivroMente.Infrastructure",
-        "projectPath": "D:\\Fatec\\2023\\Jeferson\\LivroMente_Back\\LM_BACK\\src\\LivroMente.Infrastructure\\LivroMente.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\201691124\\Desktop\\P.I\\LM_BACK\\src\\LivroMente.Infrastructure\\LivroMente.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\201691124\\.nuget\\packages\\",
-        "outputPath": "D:\\Fatec\\2023\\Jeferson\\LivroMente_Back\\LM_BACK\\src\\LivroMente.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\201691124\\Desktop\\P.I\\LM_BACK\\src\\LivroMente.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -200,8 +200,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Fatec\\2023\\Jeferson\\LivroMente_Back\\LM_BACK\\src\\LivroMente.Domain\\LivroMente.Domain.csproj": {
-                "projectPath": "D:\\Fatec\\2023\\Jeferson\\LivroMente_Back\\LM_BACK\\src\\LivroMente.Domain\\LivroMente.Domain.csproj"
+              "C:\\Users\\201691124\\Desktop\\P.I\\LM_BACK\\src\\LivroMente.Domain\\LivroMente.Domain.csproj": {
+                "projectPath": "C:\\Users\\201691124\\Desktop\\P.I\\LM_BACK\\src\\LivroMente.Domain\\LivroMente.Domain.csproj"
               }
             }
           }
