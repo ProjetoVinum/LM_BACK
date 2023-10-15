@@ -1,3 +1,4 @@
+using System.Globalization;
 using AutoMapper;
 using LivroMente.Domain.Models.CategoryBookModel;
 using LivroMente.Domain.ViewModel;
@@ -23,6 +24,22 @@ namespace LivroMente.API.Controllers
         public async Task<IActionResult> Post(CategoryBookViewModel category)
         {
             var cat1 = _mapper.Map<CategoryBook>(category);
+
+            var lista =  await _categoryBookRepository.GetAll();
+
+            lista.ToList();
+
+              foreach (var item in lista)
+              {
+               bool verifica = cat1.Description.Contains(item.Description,StringComparison.OrdinalIgnoreCase);
+               if(verifica){
+                 return BadRequest("Já existe no banco de dados");
+                }
+              }
+
+                //Deixa Primeira letra Maiúscula
+               cat1.Description = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(cat1.Description);
+
              _categoryBookRepository.Add(cat1);
 
              if (await _categoryBookRepository.UnitOfWork.SaveChangesAsync() > 0)
@@ -52,6 +69,10 @@ namespace LivroMente.API.Controllers
 
             if (entity == null) return NotFound();
             _mapper.Map(category, entity);
+            
+             //Deixa Primeira letra Maiúscula
+            entity.Description = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(entity.Description);
+
             _categoryBookRepository.Update(entity);
 
             if(await _categoryBookRepository.UnitOfWork.SaveChangesAsync() > 0)
