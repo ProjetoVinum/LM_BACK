@@ -19,6 +19,7 @@ options.UseSqlite(builder.Configuration.GetConnectionString("DefaultContext")));
 
 builder.Services.AddScoped<ICategoryBookRepository, CategoryBookRepository>();
 builder.Services.AddScoped<IBookRepository, BookRepository>();
+builder.Services.AddAutoMapper(typeof(ApplicationDataContext));
 
 var app = builder.Build();
 

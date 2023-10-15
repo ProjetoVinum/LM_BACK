@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8uBBA+Hfv3qjVlAFKeVPEvUQ82UyPwfpUYqZ5PvaCq0gm84+C2C+NNQ+69vGDLIwhFGuKIjiY3qYlR0i2qC4Kw==",
+  "dgSpecHash": "H6pFlix6jdOD3YM49LOTXq57GDOsbpmkm0w+sFAe6JmXgqR7YCekMS7FIV8Ex/LXTGP6F21kgcqvDopEWUjMYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\201691124\\Desktop\\P.I\\LM_BACK\\tests\\LivroMente.Tests\\LivroMente.Tests.csproj",
+  "projectFilePath": "/home/usuario/Meus_Cursos/teste/LM_BACK/tests/LivroMente.Tests/LivroMente.Tests.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
