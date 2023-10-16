@@ -46,3 +46,15 @@ C:/Users/201691124/Desktop/P.I/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/re
 /home/usuario/Meus_Cursos/teste/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/refint/LivroMente.Domain.dll
 /home/usuario/Meus_Cursos/teste/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/LivroMente.Domain.pdb
 /home/usuario/Meus_Cursos/teste/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/ref/LivroMente.Domain.dll
+C:\Users\201691124\Desktop\LM\LM_BACK\src\LivroMente.Domain\bin\Debug\net7.0\LivroMente.Domain.deps.json
+C:\Users\201691124\Desktop\LM\LM_BACK\src\LivroMente.Domain\bin\Debug\net7.0\LivroMente.Domain.dll
+C:\Users\201691124\Desktop\LM\LM_BACK\src\LivroMente.Domain\bin\Debug\net7.0\LivroMente.Domain.pdb
+C:\Users\201691124\Desktop\LM\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.csproj.AssemblyReference.cache
+C:\Users\201691124\Desktop\LM\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\201691124\Desktop\LM\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.AssemblyInfoInputs.cache
+C:\Users\201691124\Desktop\LM\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.AssemblyInfo.cs
+C:\Users\201691124\Desktop\LM\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.csproj.CoreCompileInputs.cache
+C:\Users\201691124\Desktop\LM\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.dll
+C:\Users\201691124\Desktop\LM\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\refint\LivroMente.Domain.dll
+C:\Users\201691124\Desktop\LM\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.pdb
+C:\Users\201691124\Desktop\LM\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\ref\LivroMente.Domain.dll
