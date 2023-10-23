@@ -1,4 +1,5 @@
 using AutoMapper;
+using LivroMente.Domain.Models.AdressModel;
 using LivroMente.Domain.Models.BookModel;
 using LivroMente.Domain.Models.CategoryBookModel;
 using LivroMente.Domain.Models.Dto;
@@ -16,6 +17,7 @@ namespace LivroMente.Infrastructure.Mapping
             CreateMap<Payment,PaymentViewModel>().ReverseMap();
             CreateMap<User, UserDto>().ReverseMap();
             CreateMap<User, UserLoginDto>().ReverseMap();
+            CreateMap<Adress, AdressViewModel>().ReverseMap();
         }
         
     }

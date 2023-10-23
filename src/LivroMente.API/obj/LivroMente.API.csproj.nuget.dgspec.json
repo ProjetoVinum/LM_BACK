@@ -1,36 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "/home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.API/LivroMente.API.csproj": {}
+    "E:\\Fatec\\LM_BACK\\src\\LivroMente.API\\LivroMente.API.csproj": {}
   },
   "projects": {
-    "/home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.API/LivroMente.API.csproj": {
+    "E:\\Fatec\\LM_BACK\\src\\LivroMente.API\\LivroMente.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.API/LivroMente.API.csproj",
+        "projectUniqueName": "E:\\Fatec\\LM_BACK\\src\\LivroMente.API\\LivroMente.API.csproj",
         "projectName": "LivroMente.API",
-        "projectPath": "/home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.API/LivroMente.API.csproj",
-        "packagesPath": "/home/usuario/.nuget/packages/",
-        "outputPath": "/home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.API/obj/",
+        "projectPath": "E:\\Fatec\\LM_BACK\\src\\LivroMente.API\\LivroMente.API.csproj",
+        "packagesPath": "C:\\Users\\201691124\\.nuget\\packages\\",
+        "outputPath": "E:\\Fatec\\LM_BACK\\src\\LivroMente.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/usuario/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\201691124\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.Domain/LivroMente.Domain.csproj": {
-                "projectPath": "/home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.Domain/LivroMente.Domain.csproj"
+              "E:\\Fatec\\LM_BACK\\src\\LivroMente.Domain\\LivroMente.Domain.csproj": {
+                "projectPath": "E:\\Fatec\\LM_BACK\\src\\LivroMente.Domain\\LivroMente.Domain.csproj"
               },
-              "/home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.Infrastructure/LivroMente.Infrastructure.csproj": {
-                "projectPath": "/home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.Infrastructure/LivroMente.Infrastructure.csproj"
+              "E:\\Fatec\\LM_BACK\\src\\LivroMente.Infrastructure\\LivroMente.Infrastructure.csproj": {
+                "projectPath": "E:\\Fatec\\LM_BACK\\src\\LivroMente.Infrastructure\\LivroMente.Infrastructure.csproj"
               }
             }
           }
@@ -97,26 +103,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.Domain/LivroMente.Domain.csproj": {
+    "E:\\Fatec\\LM_BACK\\src\\LivroMente.Domain\\LivroMente.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.Domain/LivroMente.Domain.csproj",
+        "projectUniqueName": "E:\\Fatec\\LM_BACK\\src\\LivroMente.Domain\\LivroMente.Domain.csproj",
         "projectName": "LivroMente.Domain",
-        "projectPath": "/home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.Domain/LivroMente.Domain.csproj",
-        "packagesPath": "/home/usuario/.nuget/packages/",
-        "outputPath": "/home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.Domain/obj/",
+        "projectPath": "E:\\Fatec\\LM_BACK\\src\\LivroMente.Domain\\LivroMente.Domain.csproj",
+        "packagesPath": "C:\\Users\\201691124\\.nuget\\packages\\",
+        "outputPath": "E:\\Fatec\\LM_BACK\\src\\LivroMente.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/usuario/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\201691124\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -156,34 +168,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.Infrastructure/LivroMente.Infrastructure.csproj": {
+    "E:\\Fatec\\LM_BACK\\src\\LivroMente.Infrastructure\\LivroMente.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.Infrastructure/LivroMente.Infrastructure.csproj",
+        "projectUniqueName": "E:\\Fatec\\LM_BACK\\src\\LivroMente.Infrastructure\\LivroMente.Infrastructure.csproj",
         "projectName": "LivroMente.Infrastructure",
-        "projectPath": "/home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.Infrastructure/LivroMente.Infrastructure.csproj",
-        "packagesPath": "/home/usuario/.nuget/packages/",
-        "outputPath": "/home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.Infrastructure/obj/",
+        "projectPath": "E:\\Fatec\\LM_BACK\\src\\LivroMente.Infrastructure\\LivroMente.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\201691124\\.nuget\\packages\\",
+        "outputPath": "E:\\Fatec\\LM_BACK\\src\\LivroMente.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/usuario/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\201691124\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.Domain/LivroMente.Domain.csproj": {
-                "projectPath": "/home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.Domain/LivroMente.Domain.csproj"
+              "E:\\Fatec\\LM_BACK\\src\\LivroMente.Domain\\LivroMente.Domain.csproj": {
+                "projectPath": "E:\\Fatec\\LM_BACK\\src\\LivroMente.Domain\\LivroMente.Domain.csproj"
               }
             }
           }
@@ -239,7 +257,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
