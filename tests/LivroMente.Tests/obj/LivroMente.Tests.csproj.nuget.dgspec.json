@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\201691124\\Desktop\\LM\\LM_BACK\\tests\\LivroMente.Tests\\LivroMente.Tests.csproj": {}
+    "/home/usuario/projetos/LM_Back/LM_BACK/tests/LivroMente.Tests/LivroMente.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\201691124\\Desktop\\LM\\LM_BACK\\tests\\LivroMente.Tests\\LivroMente.Tests.csproj": {
+    "/home/usuario/projetos/LM_Back/LM_BACK/tests/LivroMente.Tests/LivroMente.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\201691124\\Desktop\\LM\\LM_BACK\\tests\\LivroMente.Tests\\LivroMente.Tests.csproj",
+        "projectUniqueName": "/home/usuario/projetos/LM_Back/LM_BACK/tests/LivroMente.Tests/LivroMente.Tests.csproj",
         "projectName": "LivroMente.Tests",
-        "projectPath": "C:\\Users\\201691124\\Desktop\\LM\\LM_BACK\\tests\\LivroMente.Tests\\LivroMente.Tests.csproj",
-        "packagesPath": "C:\\Users\\201691124\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\201691124\\Desktop\\LM\\LM_BACK\\tests\\LivroMente.Tests\\obj\\",
+        "projectPath": "/home/usuario/projetos/LM_Back/LM_BACK/tests/LivroMente.Tests/LivroMente.Tests.csproj",
+        "packagesPath": "/home/usuario/.nuget/packages/",
+        "outputPath": "/home/usuario/projetos/LM_Back/LM_BACK/tests/LivroMente.Tests/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\201691124\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/usuario/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }
