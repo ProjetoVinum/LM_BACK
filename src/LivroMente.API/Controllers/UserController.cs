@@ -160,5 +160,20 @@ namespace Calhas.API.Controllers
         }
 
 
+
+        [HttpDelete("{Id}")]
+         public async Task<IActionResult>Delete(string Id) 
+         {
+            var entity = await _userRepository.GetById(Id);
+
+            if (entity == null) return NotFound();
+               entity.IsActive = false;
+
+            if (await _userRepository.SaveChangesAsync())
+            return Ok();
+            return BadRequest();   
+         }
+
+
     }
 }

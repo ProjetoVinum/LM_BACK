@@ -9,5 +9,6 @@ namespace LivroMente.Domain.Models.IdentityEntities
         public string Email { get; set; }
         public string? Password { get; set; }
         public List<UserRole> UserRoles { get; set; }
+        public bool IsActive { get; set; }
     }
 }
