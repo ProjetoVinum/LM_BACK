@@ -11,14 +11,60 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LivroMente.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDataContext))]
-    [Migration("20231022234930_InitialDb")]
-    partial class InitialDb
+    [Migration("20231029201059_AdressAtualizacao")]
+    partial class AdressAtualizacao
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.11");
+
+            modelBuilder.Entity("LivroMente.Domain.Models.AdressModel.Adress", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CEP")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("City")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Complement")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Neighborhood")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Number")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("State")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Street")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Adress");
+                });
 
             modelBuilder.Entity("LivroMente.Domain.Models.BookModel.Book", b =>
                 {
@@ -85,7 +131,7 @@ namespace LivroMente.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<bool>("IsFree")
+                    b.Property<bool>("IsActive")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
@@ -101,6 +147,9 @@ namespace LivroMente.Infrastructure.Migrations
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Name")
                         .HasMaxLength(256)
@@ -137,6 +186,9 @@ namespace LivroMente.Infrastructure.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("IsActive")
                         .HasColumnType("INTEGER");
 
                     b.Property<bool>("LockoutEnabled")
