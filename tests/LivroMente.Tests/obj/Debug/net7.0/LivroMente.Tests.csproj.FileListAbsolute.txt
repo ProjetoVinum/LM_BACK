@@ -97,3 +97,15 @@ C:\Users\201691124\Desktop\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\Livro
 C:\Users\201691124\Desktop\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\refint\LivroMente.Tests.dll
 C:\Users\201691124\Desktop\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\LivroMente.Tests.pdb
 C:\Users\201691124\Desktop\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\ref\LivroMente.Tests.dll
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\tests\LivroMente.Tests\bin\Debug\net7.0\LivroMente.Tests.deps.json
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\tests\LivroMente.Tests\bin\Debug\net7.0\LivroMente.Tests.dll
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\tests\LivroMente.Tests\bin\Debug\net7.0\LivroMente.Tests.pdb
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\LivroMente.Tests.csproj.AssemblyReference.cache
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\LivroMente.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\LivroMente.Tests.AssemblyInfoInputs.cache
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\LivroMente.Tests.AssemblyInfo.cs
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\LivroMente.Tests.csproj.CoreCompileInputs.cache
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\LivroMente.Tests.dll
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\refint\LivroMente.Tests.dll
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\LivroMente.Tests.pdb
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\ref\LivroMente.Tests.dll

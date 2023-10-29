@@ -11,14 +11,60 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LivroMente.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDataContext))]
-    [Migration("20231023114657_Campo_IsActive")]
-    partial class Campo_IsActive
+    [Migration("20231029201239_AdressAtualizacao2")]
+    partial class AdressAtualizacao2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.11");
+
+            modelBuilder.Entity("LivroMente.Domain.Models.AdressModel.Adress", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CEP")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("City")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Complement")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Neighborhood")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Number")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("State")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Street")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Adress");
+                });
 
             modelBuilder.Entity("LivroMente.Domain.Models.BookModel.Book", b =>
                 {

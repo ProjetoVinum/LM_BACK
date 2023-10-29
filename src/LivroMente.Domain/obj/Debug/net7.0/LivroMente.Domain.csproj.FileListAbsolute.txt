@@ -106,3 +106,15 @@ C:\Users\201691124\Desktop\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroM
 C:\Users\201691124\Desktop\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\refint\LivroMente.Domain.dll
 C:\Users\201691124\Desktop\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.pdb
 C:\Users\201691124\Desktop\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\ref\LivroMente.Domain.dll
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\src\LivroMente.Domain\bin\Debug\net7.0\LivroMente.Domain.deps.json
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\src\LivroMente.Domain\bin\Debug\net7.0\LivroMente.Domain.dll
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\src\LivroMente.Domain\bin\Debug\net7.0\LivroMente.Domain.pdb
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.csproj.AssemblyReference.cache
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.AssemblyInfoInputs.cache
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.AssemblyInfo.cs
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.csproj.CoreCompileInputs.cache
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.dll
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\refint\LivroMente.Domain.dll
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.pdb
+C:\Users\isabe\Desktop\Fatec\P.I.Clone\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\ref\LivroMente.Domain.dll
