@@ -1,5 +1,6 @@
 using LivroMente.Domain.Models.Dto;
 using LivroMente.Domain.Models.IdentityEntities;
+using LivroMente.Domain.Models.RoleModel;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -12,33 +13,25 @@ namespace LivroMente.API.Controllers
     {
          private readonly RoleManager<Role> _roleManager;
         private readonly UserManager<User> _userManager;
+        private readonly IRoleRepository<Role> _roleRepository;
 
-        public RoleController(RoleManager<Role> roleManager, UserManager<User> userManager)
+        public RoleController(RoleManager<Role> roleManager, UserManager<User> userManager,IRoleRepository<Role> roleRepository)
         {
             _roleManager = roleManager;
             _userManager = userManager;
+            _roleRepository = roleRepository;
         }
 
         // GET: api/Role
         [HttpGet] 
-        //[Authorize(Roles = "Admin")]
-        [AllowAnonymous] 
-        public IActionResult Get()
+        [Authorize(Roles = "Admin")]
+        //[AllowAnonymous] 
+        public async Task<IActionResult> Get()
         {
-            return Ok(new { 
-               role = new RoleDto(),
-               updateUserRole = new UpdateUserRoleDto()
-            });
+            var entity = await _roleRepository.GetAll();
+            return Ok(entity);
         }
 
-        // GET: api/Role/5
-        [HttpGet("{id}", Name = "Get")]
-        //[Authorize(Roles = "Admin, Gerente")]
-        [AllowAnonymous]    
-        public string Get(int id)
-        {
-            return "value";
-        }
 
         // POST: api/Role/CreateRole
         [HttpPost("CreateRole")]

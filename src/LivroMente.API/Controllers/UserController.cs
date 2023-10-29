@@ -164,8 +164,10 @@ namespace Calhas.API.Controllers
         }
 
 
-
+        
         [HttpDelete("{Id}")]
+        [Authorize(Roles = "Admin")]
+        //[AllowAnonymous] 
          public async Task<IActionResult>Delete(string Id) 
          {
             var entity = await _userRepository.GetById(Id);

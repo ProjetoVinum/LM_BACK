@@ -4,6 +4,7 @@ using LivroMente.Domain.Models.BookModel;
 using LivroMente.Domain.Models.CategoryBookModel;
 using LivroMente.Domain.Models.IdentityEntities;
 using LivroMente.Domain.Models.PaymentModel;
+using LivroMente.Domain.Models.RoleModel;
 using LivroMente.Domain.Models.UserModel;
 using LivroMente.Infrastructure.Data;
 using LivroMente.Infrastructure.Mapping;
@@ -63,6 +64,7 @@ builder.Services.AddScoped<ICategoryBookRepository, CategoryBookRepository>();
 builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped(typeof(IUserRepository<>), typeof(UserRepository<>));
+builder.Services.AddScoped(typeof(IRoleRepository<>), typeof(RoleRepository<>));
 builder.Services.AddAutoMapper(typeof(ApplicationDataContext));
 
 
