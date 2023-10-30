@@ -24,7 +24,26 @@ namespace LivroMente.Infrastructure.Data
          public DbSet<UserRole> UserRole { get; set; }
 
 
-         
+         protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<UserRole>(up =>
+            {
+                up.HasKey(u => new { u.UserId, u.RoleId });
+
+                up.HasOne(u => u.Role)
+                   .WithMany(r => r.UserRoles)
+                   .HasForeignKey(u => u.RoleId)
+                   .IsRequired();
+
+                up.HasOne(u => u.User)
+                .WithMany(r => r.UserRoles)
+                .HasForeignKey(u => u.UserId)
+                .IsRequired();
+            });
+
+        }
 
 
       

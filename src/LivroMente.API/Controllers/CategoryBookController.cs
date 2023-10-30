@@ -2,6 +2,7 @@ using System.Globalization;
 using AutoMapper;
 using LivroMente.Domain.Models.CategoryBookModel;
 using LivroMente.Domain.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LivroMente.API.Controllers
@@ -20,6 +21,8 @@ namespace LivroMente.API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
+        //[AllowAnonymous] 
 
         public async Task<IActionResult> Post(CategoryBookViewModel category)
         {
@@ -48,6 +51,8 @@ namespace LivroMente.API.Controllers
         }
 
         [HttpGet]
+        //[Authorize(Roles = "Admin")]
+        [AllowAnonymous] 
         public  async Task<IActionResult> GetAllCategories()
         {
             var categories = await  _categoryBookRepository.GetAll();
@@ -55,6 +60,8 @@ namespace LivroMente.API.Controllers
         }
 
         [HttpGet ("{CategoryId}")]
+        //[Authorize(Roles = "Admin")]
+        [AllowAnonymous] 
         public  IActionResult GetById(Guid CategoryId)
         {
             var entity =   _categoryBookRepository.GetbyId(CategoryId);
@@ -63,6 +70,8 @@ namespace LivroMente.API.Controllers
         }
 
         [HttpPut("{CategoryId}")]
+        [Authorize(Roles = "Admin")]
+        //[AllowAnonymous] 
         public async Task<IActionResult> Put(Guid CategoryId,CategoryBookViewModel category)
         {
              var entity =  _categoryBookRepository.GetbyId(CategoryId);
@@ -82,6 +91,8 @@ namespace LivroMente.API.Controllers
         }
 
         [HttpDelete ("{CategoryId}")]
+        [Authorize(Roles = "Admin")]
+        //[AllowAnonymous] 
         public async Task<IActionResult> Delete(Guid CategoryId)
         {
               var entity =  _categoryBookRepository.GetbyId(CategoryId);

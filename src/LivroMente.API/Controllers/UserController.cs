@@ -34,6 +34,7 @@ namespace Calhas.API.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public async Task<ActionResult> GetAll()
         {
             try
@@ -64,7 +65,10 @@ namespace Calhas.API.Controllers
                     user = new User
                     {
                         UserName = userDto.UserName,
+                        NormalizedEmail = userDto.Email,
                         Email = userDto.Email,
+                        CompleteName = userDto.CompleteName,
+                        IsActive = true
                     };
 
                     
@@ -129,7 +133,7 @@ namespace Calhas.API.Controllers
         }
 
         [HttpPost("Login")]
-        //[AllowAnonymous]
+        [AllowAnonymous]
         public async Task<IActionResult> Login(UserLoginDto userLogin)
         {
             try
@@ -160,8 +164,10 @@ namespace Calhas.API.Controllers
         }
 
 
-
+        
         [HttpDelete("{Id}")]
+        [Authorize(Roles = "Admin")]
+        //[AllowAnonymous] 
          public async Task<IActionResult>Delete(string Id) 
          {
             var entity = await _userRepository.GetById(Id);
