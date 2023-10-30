@@ -1,5 +1,6 @@
 using System.Text;
 using AutoMapper;
+using LivroMente.Domain.Models.AdressModel;
 using LivroMente.Domain.Models.BookModel;
 using LivroMente.Domain.Models.CategoryBookModel;
 using LivroMente.Domain.Models.IdentityEntities;
@@ -63,6 +64,7 @@ options.UseSqlite(builder.Configuration.GetConnectionString("DefaultContext")));
 builder.Services.AddScoped<ICategoryBookRepository, CategoryBookRepository>();
 builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
 builder.Services.AddScoped<IBookRepository, BookRepository>();
+builder.Services.AddScoped<IAdressRepository, AdressRepository>();
 builder.Services.AddScoped(typeof(IUserRepository<>), typeof(UserRepository<>));
 builder.Services.AddScoped(typeof(IRoleRepository<>), typeof(RoleRepository<>));
 builder.Services.AddAutoMapper(typeof(ApplicationDataContext));

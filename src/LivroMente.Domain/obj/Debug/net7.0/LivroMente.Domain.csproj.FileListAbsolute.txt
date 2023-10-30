@@ -70,6 +70,7 @@ C:/Users/201691124/Desktop/LM/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/ref
 /media/usuario/YASMIN/Fatec/2023/Jeferson/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/refint/LivroMente.Domain.dll
 /media/usuario/YASMIN/Fatec/2023/Jeferson/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/LivroMente.Domain.pdb
 /media/usuario/YASMIN/Fatec/2023/Jeferson/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/ref/LivroMente.Domain.dll
+<<<<<<< HEAD
 E:/Fatec/2023/Jeferson/LM_BACK/src/LivroMente.Domain/bin/Debug/net7.0/LivroMente.Domain.deps.json
 E:/Fatec/2023/Jeferson/LM_BACK/src/LivroMente.Domain/bin/Debug/net7.0/LivroMente.Domain.dll
 E:/Fatec/2023/Jeferson/LM_BACK/src/LivroMente.Domain/bin/Debug/net7.0/LivroMente.Domain.pdb
@@ -94,6 +95,20 @@ C:/Users/201691124/Desktop/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/LivroM
 C:/Users/201691124/Desktop/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/refint/LivroMente.Domain.dll
 C:/Users/201691124/Desktop/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/LivroMente.Domain.pdb
 C:/Users/201691124/Desktop/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/ref/LivroMente.Domain.dll
+=======
+C:/Users/isabe/Desktop/Fatec/P.I.Clone/LM_BACK/src/LivroMente.Domain/bin/Debug/net7.0/LivroMente.Domain.deps.json
+C:/Users/isabe/Desktop/Fatec/P.I.Clone/LM_BACK/src/LivroMente.Domain/bin/Debug/net7.0/LivroMente.Domain.dll
+C:/Users/isabe/Desktop/Fatec/P.I.Clone/LM_BACK/src/LivroMente.Domain/bin/Debug/net7.0/LivroMente.Domain.pdb
+C:/Users/isabe/Desktop/Fatec/P.I.Clone/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/LivroMente.Domain.csproj.AssemblyReference.cache
+C:/Users/isabe/Desktop/Fatec/P.I.Clone/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/LivroMente.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/isabe/Desktop/Fatec/P.I.Clone/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/LivroMente.Domain.AssemblyInfoInputs.cache
+C:/Users/isabe/Desktop/Fatec/P.I.Clone/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/LivroMente.Domain.AssemblyInfo.cs
+C:/Users/isabe/Desktop/Fatec/P.I.Clone/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/LivroMente.Domain.csproj.CoreCompileInputs.cache
+C:/Users/isabe/Desktop/Fatec/P.I.Clone/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/LivroMente.Domain.dll
+C:/Users/isabe/Desktop/Fatec/P.I.Clone/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/refint/LivroMente.Domain.dll
+C:/Users/isabe/Desktop/Fatec/P.I.Clone/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/LivroMente.Domain.pdb
+C:/Users/isabe/Desktop/Fatec/P.I.Clone/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/ref/LivroMente.Domain.dll
+>>>>>>> origin/main
 /home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.Domain/bin/Debug/net7.0/LivroMente.Domain.deps.json
 /home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.Domain/bin/Debug/net7.0/LivroMente.Domain.dll
 /home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.Domain/bin/Debug/net7.0/LivroMente.Domain.pdb
