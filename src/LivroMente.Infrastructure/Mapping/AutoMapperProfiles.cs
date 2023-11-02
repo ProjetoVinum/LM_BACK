@@ -13,6 +13,8 @@ namespace LivroMente.Infrastructure.Mapping
     {
         public AutoMapperProfiles()
         {
+            CreateMap<Adress, AdressViewModel>().ReverseMap();
+            CreateMap<Book, BookViewModel>().ReverseMap();
             CreateMap<CategoryBook,CategoryBookViewModel>().ReverseMap();
             CreateMap<Payment,PaymentViewModel>().ReverseMap();
             CreateMap<User, UserDto>().ReverseMap();

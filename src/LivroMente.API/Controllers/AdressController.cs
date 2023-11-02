@@ -6,7 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LivroMente.API.Controllers
 {
+<<<<<<< HEAD
     [Route("api/controller")]
+=======
+    [Route("api/[controller]")]
+>>>>>>> 861e53be271ba1c90c6ce510c43221130f2ebbf9
     [ApiController]
     public class AdressController : ControllerBase
     {

@@ -7,6 +7,7 @@ using LivroMente.Domain.Models.PaymentModel;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using LivroMente.Domain.Models.AdressModel;
 
 namespace LivroMente.Infrastructure.Data
 {
@@ -15,7 +16,6 @@ namespace LivroMente.Infrastructure.Data
             IdentityRoleClaim<string>,IdentityUserToken<string>>,IUnitOfWork
     {
         public ApplicationDataContext(DbContextOptions<ApplicationDataContext> options) : base(options) {}
-         public DbSet<Adress> Adress { get; set; }
          public DbSet<Book> Book { get; set; }
          public DbSet<CategoryBook> CategoryBook { get; set; }
          public DbSet<Payment> Payment {get;set;}
@@ -24,7 +24,26 @@ namespace LivroMente.Infrastructure.Data
          public DbSet<UserRole> UserRole { get; set; }
 
 
-         
+         protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<UserRole>(up =>
+            {
+                up.HasKey(u => new { u.UserId, u.RoleId });
+
+                up.HasOne(u => u.Role)
+                   .WithMany(r => r.UserRoles)
+                   .HasForeignKey(u => u.RoleId)
+                   .IsRequired();
+
+                up.HasOne(u => u.User)
+                .WithMany(r => r.UserRoles)
+                .HasForeignKey(u => u.UserId)
+                .IsRequired();
+            });
+
+        }
 
 
       

@@ -17,6 +17,6 @@ namespace LivroMente.Domain.ViewModel
         public int Classification { get; set; }
         public bool IsActive { get; set; }
         public Guid CategoryId { get; set; }
-        public virtual CategoryBook Category { get; set; } 
+       // public virtual CategoryBook Category { get; set; } 
     }
 }

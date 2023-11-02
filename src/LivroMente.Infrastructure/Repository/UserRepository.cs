@@ -13,6 +13,15 @@ namespace LivroMente.Infrastructure.Repository
         {
             _context = context;
         }
+
+        public async Task<T> GetById(string id)
+        {
+        
+         return await _context.Set<T>().FindAsync(id);
+        
+        }
+
+
         public List<UserRole> GetUserRolesInclude()
         {
              IQueryable<UserRole> entity =  _context.UserRole
@@ -21,5 +30,11 @@ namespace LivroMente.Infrastructure.Repository
            
             return entity.ToList();
         }
+
+        public async Task<bool> SaveChangesAsync()
+        {
+            return (await _context.SaveChangesAsync()) > 0;
+        }
+
     }
 }

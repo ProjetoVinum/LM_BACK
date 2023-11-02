@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+using LivroMente.Domain.Models.IdentityEntities;
+
+>>>>>>> 861e53be271ba1c90c6ce510c43221130f2ebbf9
 namespace LivroMente.Domain.Models.AdressModel
 {
     public class Adress
@@ -11,7 +16,12 @@ namespace LivroMente.Domain.Models.AdressModel
        public string State { get; set; }
        public string Complement { get; set; }
        public bool IsActive { get; set; }
+<<<<<<< HEAD
        public string Id_User { get; set; }
+=======
+       public string UserId { get; set; }
+       public User User {get; set;}
+>>>>>>> 861e53be271ba1c90c6ce510c43221130f2ebbf9
     }
 
 }

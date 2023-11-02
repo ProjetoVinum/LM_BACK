@@ -6,7 +6,6 @@ namespace LivroMente.Domain.Models.CategoryBookModel
     {
         public Guid Id { get; set; }
         public string Description { get; set; }
-        public bool IsFree { get; set; }
-        public List<Book> Books { get; set; }
+        public bool IsActive { get; set; }
     }
 }

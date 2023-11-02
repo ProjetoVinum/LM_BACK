@@ -4,5 +4,12 @@
   "success": true,
   "projectFilePath": "E:\\Fatec\\LM_BACK\\tests\\LivroMente.Tests\\LivroMente.Tests.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache /home/usuario/projetos/LM_Back/LM_BACK/tests/LivroMente.Tests/obj/project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

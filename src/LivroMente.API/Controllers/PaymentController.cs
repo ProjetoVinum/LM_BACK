@@ -2,6 +2,7 @@ using System.Globalization;
 using AutoMapper;
 using LivroMente.Domain.Models.PaymentModel;
 using LivroMente.Domain.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LivroMente.API.Controllers
@@ -21,6 +22,8 @@ namespace LivroMente.API.Controllers
 
         
         [HttpPost]
+        [Authorize(Roles = "Admin")]
+        //[AllowAnonymous] 
         public async Task<IActionResult> Post(PaymentViewModel payment)
         {
             var pay1 = _mapper.Map<Payment>(payment);
@@ -48,6 +51,8 @@ namespace LivroMente.API.Controllers
         }
 
         [HttpGet]
+        //[Authorize(Roles = "Admin")]
+        [AllowAnonymous] 
         public  async Task<IActionResult> GetAllCategories()
         {
             var payments = await  _repo.GetAll();
@@ -55,6 +60,8 @@ namespace LivroMente.API.Controllers
         }
 
         [HttpGet ("{PaymentId}")]
+        //[Authorize(Roles = "Admin")]
+        [AllowAnonymous] 
         public  IActionResult GetById(Guid PaymentId)
         {
             var entity =   _repo.GetbyId(PaymentId);
@@ -63,6 +70,8 @@ namespace LivroMente.API.Controllers
         }
 
         [HttpPut("{PaymentId}")]
+        //[Authorize(Roles = "Admin")]
+        [AllowAnonymous] 
         public async Task<IActionResult> Put(Guid PaymentId,PaymentViewModel payment)
         {
              var entity =  _repo.GetbyId(PaymentId);
@@ -81,6 +90,8 @@ namespace LivroMente.API.Controllers
             return BadRequest();
         }
 
+        [Authorize(Roles = "Admin")]
+        //[AllowAnonymous] 
         [HttpDelete ("{PaymentId}")]
         public async Task<IActionResult> Delete(Guid PaymentId)
         {
