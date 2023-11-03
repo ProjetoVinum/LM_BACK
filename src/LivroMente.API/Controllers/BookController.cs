@@ -2,6 +2,7 @@ using System.Globalization;
 using AutoMapper;
 using LivroMente.Domain.Models.BookModel;
 using LivroMente.Domain.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LivroMente.API.Controllers
@@ -19,6 +20,7 @@ namespace LivroMente.API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Post(BookViewModel book)
         {
             var book1 = _mapper.Map<Book>(book);
@@ -33,6 +35,7 @@ namespace LivroMente.API.Controllers
             return BadRequest();
         }
         [HttpGet]
+        [AllowAnonymous]
         public  async Task<IActionResult> GetAllBook()
         {
             var book = await  _bookRepository.GetAll();
@@ -40,6 +43,7 @@ namespace LivroMente.API.Controllers
         }
 
         [HttpGet ("{BookId}")]
+        [AllowAnonymous]
         public  IActionResult GetById(Guid BookId)
         {
             var entity =   _bookRepository.GetbyId(BookId);
@@ -48,6 +52,7 @@ namespace LivroMente.API.Controllers
         }
 
         [HttpPut("{BookId}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Put(Guid BookId, BookViewModel book)
         {
              var entity =  _bookRepository.GetbyId(BookId);
@@ -66,6 +71,7 @@ namespace LivroMente.API.Controllers
         }
 
         [HttpDelete ("{BookId}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(Guid BookId)
         {
               var entity =  _bookRepository.GetbyId(BookId);

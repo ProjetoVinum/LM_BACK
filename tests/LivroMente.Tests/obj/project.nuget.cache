@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "thLb8mZpZizfttylD6uQUquomAdzyh31EdkZ75RRSUcqQ+/kB3+IateUfICDy5MzwxLYArtU/5ru6jJg8cVbdg==",
+  "dgSpecHash": "PmOweRfxxXXE/acyMX/IAm35ux1p+IUhkW/YSEVskFXnbl1N+3BTKkSsiQmlFomJ9pxB65+3xWE2v8KvPT03RQ==",
   "success": true,
-  "projectFilePath": "E:\\Fatec\\LM_BACK\\tests\\LivroMente.Tests\\LivroMente.Tests.csproj",
+  "projectFilePath": "C:\\Users\\isabe\\Desktop\\Fatec\\LM_BACK\\tests\\LivroMente.Tests\\LivroMente.Tests.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema ao ler o arquivo de cache /home/usuario/projetos/LM_Back/LM_BACK/tests/LivroMente.Tests/obj/project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

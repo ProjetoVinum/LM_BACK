@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LivroMente.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDataContext))]
-    [Migration("20231029201239_AdressAtualizacao2")]
-    partial class AdressAtualizacao2
+    [Migration("20231102232051_BD")]
+    partial class BD
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -62,6 +62,8 @@ namespace LivroMente.Infrastructure.Migrations
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Adress");
                 });
@@ -176,12 +178,15 @@ namespace LivroMente.Infrastructure.Migrations
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("CompleteName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasMaxLength(256)
                         .HasColumnType("TEXT");
 
@@ -197,18 +202,12 @@ namespace LivroMente.Infrastructure.Migrations
                     b.Property<DateTimeOffset?>("LockoutEnd")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Name")
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("NormalizedEmail")
                         .HasMaxLength(256)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("NormalizedUserName")
                         .HasMaxLength(256)
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Password")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("PasswordHash")
@@ -250,21 +249,9 @@ namespace LivroMente.Infrastructure.Migrations
                     b.Property<string>("RoleId")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("RoleId1")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("UserId1")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
                     b.HasKey("UserId", "RoleId");
 
                     b.HasIndex("RoleId");
-
-                    b.HasIndex("RoleId1");
-
-                    b.HasIndex("UserId1");
 
                     b.ToTable("AspNetUserRoles", (string)null);
                 });
@@ -371,10 +358,21 @@ namespace LivroMente.Infrastructure.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("LivroMente.Domain.Models.AdressModel.Adress", b =>
+                {
+                    b.HasOne("LivroMente.Domain.Models.IdentityEntities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("LivroMente.Domain.Models.BookModel.Book", b =>
                 {
                     b.HasOne("LivroMente.Domain.Models.CategoryBookModel.CategoryBook", "Category")
-                        .WithMany("Books")
+                        .WithMany()
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -384,27 +382,15 @@ namespace LivroMente.Infrastructure.Migrations
 
             modelBuilder.Entity("LivroMente.Domain.Models.IdentityEntities.UserRole", b =>
                 {
-                    b.HasOne("LivroMente.Domain.Models.IdentityEntities.Role", null)
-                        .WithMany()
-                        .HasForeignKey("RoleId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("LivroMente.Domain.Models.IdentityEntities.Role", "Role")
                         .WithMany("UserRoles")
-                        .HasForeignKey("RoleId1")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("LivroMente.Domain.Models.IdentityEntities.User", null)
-                        .WithMany()
-                        .HasForeignKey("UserId")
+                        .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("LivroMente.Domain.Models.IdentityEntities.User", "User")
                         .WithMany("UserRoles")
-                        .HasForeignKey("UserId1")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -447,11 +433,6 @@ namespace LivroMente.Infrastructure.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("LivroMente.Domain.Models.CategoryBookModel.CategoryBook", b =>
-                {
-                    b.Navigation("Books");
                 });
 
             modelBuilder.Entity("LivroMente.Domain.Models.IdentityEntities.Role", b =>

@@ -1,5 +1,8 @@
 using System.Text;
 using AutoMapper;
+using LivroMente.API.Integration;
+using LivroMente.API.Integration.Interfaces;
+using LivroMente.API.Integration.Refit;
 using LivroMente.Domain.Models.AdressModel;
 using LivroMente.Domain.Models.BookModel;
 using LivroMente.Domain.Models.CategoryBookModel;
@@ -17,6 +20,7 @@ using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Refit;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -68,7 +72,11 @@ builder.Services.AddScoped<IAdressRepository, AdressRepository>();
 builder.Services.AddScoped(typeof(IUserRepository<>), typeof(UserRepository<>));
 builder.Services.AddScoped(typeof(IRoleRepository<>), typeof(RoleRepository<>));
 builder.Services.AddAutoMapper(typeof(ApplicationDataContext));
-
+builder.Services.AddScoped<IViaCepIntegration, ViaCepIntegration>();
+builder.Services.AddRefitClient<IViaCepIntegrationRefit>().ConfigureHttpClient( c => 
+{
+ c.BaseAddress = new Uri("https://viacep.com.br");
+});
 
 builder.Services.AddIdentityCore<User>(options => {
     //options.SignIn.RequireConfirmedEmail = true;
@@ -117,6 +125,8 @@ var mappingConfig = new MapperConfiguration(mc =>
 
 IMapper mapper = mappingConfig.CreateMapper();
 builder.Services.AddSingleton(mapper);
+
+
 
 var app = builder.Build();
 

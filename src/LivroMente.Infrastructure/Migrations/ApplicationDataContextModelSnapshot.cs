@@ -60,6 +60,8 @@ namespace LivroMente.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("UserId");
+
                     b.ToTable("Adress");
                 });
 
@@ -353,10 +355,21 @@ namespace LivroMente.Infrastructure.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("LivroMente.Domain.Models.AdressModel.Adress", b =>
+                {
+                    b.HasOne("LivroMente.Domain.Models.IdentityEntities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("LivroMente.Domain.Models.BookModel.Book", b =>
                 {
                     b.HasOne("LivroMente.Domain.Models.CategoryBookModel.CategoryBook", "Category")
-                        .WithMany("Books")
+                        .WithMany()
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -417,11 +430,6 @@ namespace LivroMente.Infrastructure.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("LivroMente.Domain.Models.CategoryBookModel.CategoryBook", b =>
-                {
-                    b.Navigation("Books");
                 });
 
             modelBuilder.Entity("LivroMente.Domain.Models.IdentityEntities.Role", b =>
