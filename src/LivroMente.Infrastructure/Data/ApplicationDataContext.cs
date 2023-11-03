@@ -17,6 +17,7 @@ namespace LivroMente.Infrastructure.Data
     {
         public ApplicationDataContext(DbContextOptions<ApplicationDataContext> options) : base(options) {}
          public DbSet<Book> Book { get; set; }
+         public DbSet<Adress> Adress { get; set; }
          public DbSet<CategoryBook> CategoryBook { get; set; }
          public DbSet<Payment> Payment {get;set;}
          public DbSet<User> User { get; set; }

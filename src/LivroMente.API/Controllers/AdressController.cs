@@ -1,30 +1,33 @@
 using System.Globalization;
 using AutoMapper;
+using LivroMente.API.Integration.Interfaces;
+using LivroMente.API.Integration.Response;
 using LivroMente.Domain.Models.AdressModel;
 using LivroMente.Domain.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LivroMente.API.Controllers
 {
-<<<<<<< HEAD
-    [Route("api/controller")]
-=======
     [Route("api/[controller]")]
->>>>>>> 861e53be271ba1c90c6ce510c43221130f2ebbf9
     [ApiController]
     public class AdressController : ControllerBase
     {
         private readonly IAdressRepository _AdressRepository;
         private readonly IMapper _mapper;
+        private readonly IViaCepIntegration _viaCepIntegration;
 
-        public AdressController(IAdressRepository AdressRepository,IMapper mapper)
+        public AdressController(IAdressRepository AdressRepository,IMapper mapper,
+                                IViaCepIntegration viaCepIntegration)
         {
             _AdressRepository = AdressRepository;
-            _mapper = mapper;   
+            _mapper = mapper;
+            _viaCepIntegration = viaCepIntegration;
         }
 
         [HttpPost]
-
+        // [Authorize(Roles = "Admin")]
+        [AllowAnonymous]
         public async Task<IActionResult> Post(AdressViewModel adress)
         {
             var adress1 = _mapper.Map<Adress>(adress);
@@ -53,21 +56,30 @@ namespace LivroMente.API.Controllers
         }
 
         [HttpGet]
+        // [Authorize(Roles = "Admin")]
+        [AllowAnonymous]
         public  async Task<IActionResult> GetAllAdress()
         {
             var adress = await  _AdressRepository.GetAll();
             return Ok(adress);
         }
 
-        [HttpGet ("{AdressId}")]
-        public  IActionResult GetById(Guid AdressId)
+        [HttpGet ("{cep}")]
+        [AllowAnonymous]
+        public  async Task<ActionResult<ViaCepResponse>> GetByCep(string cep)
         {
-            var entity =   _AdressRepository.GetbyId(AdressId);
-            return Ok(entity);
-            
+            var resposeData = await _viaCepIntegration.ObterDadosViaCep(cep);
+
+            if (resposeData == null)
+            {
+                return BadRequest("CEP não encontrado!");
+            }
+            return Ok(resposeData);
         }
 
         [HttpPut("{AdressId}")]
+        // [Authorize(Roles = "Admin")]
+        [AllowAnonymous]
         public async Task<IActionResult> Put(Guid AdressId,AdressViewModel adress)
         {
              var entity =  _AdressRepository.GetbyId(AdressId);
@@ -87,6 +99,8 @@ namespace LivroMente.API.Controllers
         }
 
         [HttpDelete ("{AdressId}")]
+        // [Authorize(Roles = "Admin")]
+        [AllowAnonymous]
         public async Task<IActionResult> Delete(Guid AdressId)
         {
               var entity =  _AdressRepository.GetbyId(AdressId);
