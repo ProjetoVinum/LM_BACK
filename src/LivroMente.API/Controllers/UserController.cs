@@ -79,6 +79,7 @@ namespace Calhas.API.Controllers
                     if(result.Succeeded){
                         var appUser = await _userManager.Users.FirstOrDefaultAsync(u => u.NormalizedUserName == user.UserName.ToUpper());
                         var token = GenerateJWToken(appUser).Result;
+                        await _userManager.AddToRoleAsync(user, userDto.Role);
                         return Ok(token);
                     }
                
