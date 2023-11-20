@@ -8,6 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using LivroMente.Domain.Models.AdressModel;
+using LivroMente.Domain.Models.OrderModel;
+using LivroMente.Domain.Models.OrderDetailsModel;
 
 namespace LivroMente.Infrastructure.Data
 {
@@ -20,6 +22,8 @@ namespace LivroMente.Infrastructure.Data
          public DbSet<Adress> Adress { get; set; }
          public DbSet<CategoryBook> CategoryBook { get; set; }
          public DbSet<Payment> Payment {get;set;}
+         public DbSet<Order> Order {get;set;}
+         public DbSet<OrderDetails> OrderDetails {get;set;}
          public DbSet<User> User { get; set; }
          public DbSet<Role> Role { get; set; }
          public DbSet<UserRole> UserRole { get; set; }
@@ -43,6 +47,9 @@ namespace LivroMente.Infrastructure.Data
                 .HasForeignKey(u => u.UserId)
                 .IsRequired();
             });
+
+
+            
 
         }
 

@@ -4,6 +4,8 @@ using LivroMente.Domain.Models.BookModel;
 using LivroMente.Domain.Models.CategoryBookModel;
 using LivroMente.Domain.Models.Dto;
 using LivroMente.Domain.Models.IdentityEntities;
+using LivroMente.Domain.Models.OrderDetailsModel;
+using LivroMente.Domain.Models.OrderModel;
 using LivroMente.Domain.Models.PaymentModel;
 using LivroMente.Domain.ViewModel;
 
@@ -20,6 +22,8 @@ namespace LivroMente.Infrastructure.Mapping
             CreateMap<User, UserDto>().ReverseMap();
             CreateMap<User, UserLoginDto>().ReverseMap();
             CreateMap<Adress, AdressViewModel>().ReverseMap();
+            CreateMap<Order, OrderViewModel>().ReverseMap();
+            CreateMap<OrderDetails, OrderDetailsViewModel>().ReverseMap();
         }
         
     }
