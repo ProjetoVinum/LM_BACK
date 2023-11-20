@@ -7,6 +7,7 @@ using LivroMente.Domain.Models.AdressModel;
 using LivroMente.Domain.Models.BookModel;
 using LivroMente.Domain.Models.CategoryBookModel;
 using LivroMente.Domain.Models.IdentityEntities;
+using LivroMente.Domain.Models.OrderModel;
 using LivroMente.Domain.Models.PaymentModel;
 using LivroMente.Domain.Models.RoleModel;
 using LivroMente.Domain.Models.UserModel;
@@ -67,6 +68,7 @@ options.UseSqlite(builder.Configuration.GetConnectionString("DefaultContext")));
 
 builder.Services.AddScoped<ICategoryBookRepository, CategoryBookRepository>();
 builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<IAdressRepository, AdressRepository>();
 builder.Services.AddScoped(typeof(IUserRepository<>), typeof(UserRepository<>));
