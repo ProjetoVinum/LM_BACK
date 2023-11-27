@@ -19,6 +19,7 @@ namespace LivroMente.Domain.Models.BookModel
         public Guid CategoryId { get; set; }
         public String UrlBook { get; set; }
         public String UrlImg { get; set; }
+        //url Img
         public CategoryBook Category { get; set; } 
     }
 }
