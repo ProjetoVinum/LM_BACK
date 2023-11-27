@@ -17,6 +17,8 @@ namespace LivroMente.Domain.Models.BookModel
         public int Classification { get; set; }
         public bool IsActive { get; set; }
         public Guid CategoryId { get; set; }
+        public String UrlBook { get; set; }
+        public String UrlImg { get; set; }
         public CategoryBook Category { get; set; } 
     }
 }
