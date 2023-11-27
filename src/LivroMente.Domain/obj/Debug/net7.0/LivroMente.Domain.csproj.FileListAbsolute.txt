@@ -109,18 +109,6 @@ C:/Users/isabe/Desktop/Fatec/P.I.Clone/LM_BACK/src/LivroMente.Domain/obj/Debug/n
 C:/Users/isabe/Desktop/Fatec/P.I.Clone/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/LivroMente.Domain.pdb
 C:/Users/isabe/Desktop/Fatec/P.I.Clone/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/ref/LivroMente.Domain.dll
 >>>>>>> origin/main
-E:/Fatec/LM_BACK/src/LivroMente.Domain/bin/Debug/net7.0/LivroMente.Domain.deps.json
-E:/Fatec/LM_BACK/src/LivroMente.Domain/bin/Debug/net7.0/LivroMente.Domain.dll
-E:/Fatec/LM_BACK/src/LivroMente.Domain/bin/Debug/net7.0/LivroMente.Domain.pdb
-E:/Fatec/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/LivroMente.Domain.csproj.AssemblyReference.cache
-E:/Fatec/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/LivroMente.Domain.GeneratedMSBuildEditorConfig.editorconfig
-E:/Fatec/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/LivroMente.Domain.AssemblyInfoInputs.cache
-E:/Fatec/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/LivroMente.Domain.AssemblyInfo.cs
-E:/Fatec/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/LivroMente.Domain.csproj.CoreCompileInputs.cache
-E:/Fatec/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/LivroMente.Domain.dll
-E:/Fatec/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/refint/LivroMente.Domain.dll
-E:/Fatec/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/LivroMente.Domain.pdb
-E:/Fatec/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/ref/LivroMente.Domain.dll
 C:/Users/isabe/Desktop/Fatec/LM_BACK/src/LivroMente.Domain/bin/Debug/net7.0/LivroMente.Domain.deps.json
 C:/Users/isabe/Desktop/Fatec/LM_BACK/src/LivroMente.Domain/bin/Debug/net7.0/LivroMente.Domain.dll
 C:/Users/isabe/Desktop/Fatec/LM_BACK/src/LivroMente.Domain/bin/Debug/net7.0/LivroMente.Domain.pdb
@@ -157,3 +145,15 @@ C:/Users/201691124/Desktop/LM_Back/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.
 /home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/refint/LivroMente.Domain.dll
 /home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/LivroMente.Domain.pdb
 /home/usuario/projetos/LM_Back/LM_BACK/src/LivroMente.Domain/obj/Debug/net7.0/ref/LivroMente.Domain.dll
+E:\Fatec\LM_BACK\src\LivroMente.Domain\bin\Debug\net7.0\LivroMente.Domain.deps.json
+E:\Fatec\LM_BACK\src\LivroMente.Domain\bin\Debug\net7.0\LivroMente.Domain.dll
+E:\Fatec\LM_BACK\src\LivroMente.Domain\bin\Debug\net7.0\LivroMente.Domain.pdb
+E:\Fatec\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.csproj.AssemblyReference.cache
+E:\Fatec\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Fatec\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.AssemblyInfoInputs.cache
+E:\Fatec\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.AssemblyInfo.cs
+E:\Fatec\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.csproj.CoreCompileInputs.cache
+E:\Fatec\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.dll
+E:\Fatec\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\refint\LivroMente.Domain.dll
+E:\Fatec\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\LivroMente.Domain.pdb
+E:\Fatec\LM_BACK\src\LivroMente.Domain\obj\Debug\net7.0\ref\LivroMente.Domain.dll

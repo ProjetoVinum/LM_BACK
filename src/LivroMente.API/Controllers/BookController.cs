@@ -1,4 +1,5 @@
 using System.Globalization;
+using System.Net.Http.Headers;
 using AutoMapper;
 using LivroMente.Domain.Models.BookModel;
 using LivroMente.Domain.ViewModel;
@@ -9,10 +10,13 @@ namespace LivroMente.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
     public class BookController : ControllerBase
     {
         private readonly IBookRepository _bookRepository;
         private readonly IMapper _mapper;
+        
+
         public BookController(IBookRepository bookRepository, IMapper mapper)
         {
             _bookRepository = bookRepository;
