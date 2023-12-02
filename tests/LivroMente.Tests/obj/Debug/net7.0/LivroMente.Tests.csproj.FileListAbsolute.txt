@@ -131,3 +131,14 @@ E:\Fatec\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\LivroMente.Tests.dll
 E:\Fatec\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\refint\LivroMente.Tests.dll
 E:\Fatec\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\LivroMente.Tests.pdb
 E:\Fatec\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\ref\LivroMente.Tests.dll
+E:\LM_BACK\tests\LivroMente.Tests\bin\Debug\net7.0\LivroMente.Tests.deps.json
+E:\LM_BACK\tests\LivroMente.Tests\bin\Debug\net7.0\LivroMente.Tests.dll
+E:\LM_BACK\tests\LivroMente.Tests\bin\Debug\net7.0\LivroMente.Tests.pdb
+E:\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\LivroMente.Tests.GeneratedMSBuildEditorConfig.editorconfig
+E:\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\LivroMente.Tests.AssemblyInfoInputs.cache
+E:\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\LivroMente.Tests.AssemblyInfo.cs
+E:\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\LivroMente.Tests.csproj.CoreCompileInputs.cache
+E:\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\LivroMente.Tests.dll
+E:\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\refint\LivroMente.Tests.dll
+E:\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\LivroMente.Tests.pdb
+E:\LM_BACK\tests\LivroMente.Tests\obj\Debug\net7.0\ref\LivroMente.Tests.dll

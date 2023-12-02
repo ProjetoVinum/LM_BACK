@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Fatec\\LM_BACK\\tests\\LivroMente.Tests\\LivroMente.Tests.csproj": {}
+    "C:\\Users\\isabe\\Desktop\\Fatec\\PI_Atual\\LM_BACK\\tests\\LivroMente.Tests\\LivroMente.Tests.csproj": {}
   },
   "projects": {
-    "E:\\Fatec\\LM_BACK\\tests\\LivroMente.Tests\\LivroMente.Tests.csproj": {
+    "C:\\Users\\isabe\\Desktop\\Fatec\\PI_Atual\\LM_BACK\\tests\\LivroMente.Tests\\LivroMente.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Fatec\\LM_BACK\\tests\\LivroMente.Tests\\LivroMente.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\isabe\\Desktop\\Fatec\\PI_Atual\\LM_BACK\\tests\\LivroMente.Tests\\LivroMente.Tests.csproj",
         "projectName": "LivroMente.Tests",
-        "projectPath": "E:\\Fatec\\LM_BACK\\tests\\LivroMente.Tests\\LivroMente.Tests.csproj",
-        "packagesPath": "C:\\Users\\201691124\\.nuget\\packages\\",
-        "outputPath": "E:\\Fatec\\LM_BACK\\tests\\LivroMente.Tests\\obj\\",
+        "projectPath": "C:\\Users\\isabe\\Desktop\\Fatec\\PI_Atual\\LM_BACK\\tests\\LivroMente.Tests\\LivroMente.Tests.csproj",
+        "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\isabe\\Desktop\\Fatec\\PI_Atual\\LM_BACK\\tests\\LivroMente.Tests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\201691124\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
