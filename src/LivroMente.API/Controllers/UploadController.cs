@@ -5,6 +5,7 @@ using Google.Apis.Drive.v3;
 using Google.Apis.Services;
 using Google.Apis.Util.Store;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using static Google.Apis.Drive.v3.DriveService;
 
@@ -85,21 +86,6 @@ namespace LivroMente.API.Controllers
             
             return service;
         }
-
-    //    [HttpPost]
-    //     [AllowAnonymous] 
-    //     public string CreateFolder(string parent, string folderName)
-    //     {
-    //          var service = GetService();
-    //         var driveFolder = new Google.Apis.Drive.v3.Data.File();
-    //         driveFolder.Name = folderName;
-    //         driveFolder.MimeType = "application/vnd.google-apps.folder";
-    //         driveFolder.Parents = new string[] { parent };
-    //         var command = service.Files.Create(driveFolder);
-    //         var file = command.Execute();
-    //         return file.Id;
-    //     }
-
         
          [HttpPost]
          [AllowAnonymous] 
@@ -109,11 +95,8 @@ namespace LivroMente.API.Controllers
             {
                 using (var stream = arquivo.OpenReadStream())
                 {
-                    // Chame o método UploadFile passando o fluxo de dados do arquivo e outras informações necessárias
-                    string fileId = UploadFile(stream, arquivo.FileName, arquivo.ContentType, "1m1yulxFuOKXx3Pc6BkAXkAgwcv_8qp6g", "Descrição do arquivo");
-                    
-                        string link = ($"https://drive.google.com/file/d/{fileId}/view");
-                    // Faça algo com o ID do arquivo retornado, se necessário
+                    var link = UploadFile(stream, arquivo.FileName, arquivo.ContentType, "1m1yulxFuOKXx3Pc6BkAXkAgwcv_8qp6g", "Descrição do arquivo");
+                 
                     return Ok(link);
                 }
             }
@@ -144,8 +127,11 @@ namespace LivroMente.API.Controllers
             var response = request.Upload();
             if (response.Status != Google.Apis.Upload.UploadStatus.Completed)
                 throw response.Exception;
-            
-            return request.ResponseBody.Id;
+
+            System.Threading.Thread.Sleep(5000); // Aguarde 5 segundos antes de pegar id
+            var fileId = request.ResponseBody.Id;
+            var link = $"https://drive.google.com/uc?id={fileId}";
+            return link;
         }
         
         [HttpDelete]
