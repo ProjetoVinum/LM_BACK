@@ -134,7 +134,7 @@ namespace Calhas.API.Controllers
         }
 
         [HttpPost("Login")]
-        [AllowAnonymous]
+        [AllowAnonymous] 
         public async Task<IActionResult> Login(UserLoginDto userLogin)
         {
             try

@@ -21,8 +21,8 @@ namespace LivroMente.API.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "Admin")]
-        //[AllowAnonymous] 
+        // [Authorize(Roles = "Admin")]
+        [AllowAnonymous] 
 
         public async Task<IActionResult> Post(CategoryBookViewModel category)
         {

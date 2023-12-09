@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/usuario/projetos/LM_Back/LM_BACK/tests/LivroMente.Tests/LivroMente.Tests.csproj": {}
+    "C:\\Users\\isabe\\Desktop\\Fatec\\PI_Atual\\LM_BACK\\tests\\LivroMente.Tests\\LivroMente.Tests.csproj": {}
   },
   "projects": {
-    "/home/usuario/projetos/LM_Back/LM_BACK/tests/LivroMente.Tests/LivroMente.Tests.csproj": {
+    "C:\\Users\\isabe\\Desktop\\Fatec\\PI_Atual\\LM_BACK\\tests\\LivroMente.Tests\\LivroMente.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/usuario/projetos/LM_Back/LM_BACK/tests/LivroMente.Tests/LivroMente.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\isabe\\Desktop\\Fatec\\PI_Atual\\LM_BACK\\tests\\LivroMente.Tests\\LivroMente.Tests.csproj",
         "projectName": "LivroMente.Tests",
-        "projectPath": "/home/usuario/projetos/LM_Back/LM_BACK/tests/LivroMente.Tests/LivroMente.Tests.csproj",
-        "packagesPath": "/home/usuario/.nuget/packages/",
-        "outputPath": "/home/usuario/projetos/LM_Back/LM_BACK/tests/LivroMente.Tests/obj/",
+        "projectPath": "C:\\Users\\isabe\\Desktop\\Fatec\\PI_Atual\\LM_BACK\\tests\\LivroMente.Tests\\LivroMente.Tests.csproj",
+        "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\isabe\\Desktop\\Fatec\\PI_Atual\\LM_BACK\\tests\\LivroMente.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/usuario/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
