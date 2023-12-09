@@ -683,6 +683,12 @@
       "System.Net.Http.Json/7.0.1": {
         "dependencies": {
           "System.Text.Json": "7.0.2"
+        },
+        "runtime": {
+          "lib/net7.0/System.Net.Http.Json.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.423.11508"
+          }
         }
       },
       "System.Security.Cryptography.Cng/4.5.0": {},
@@ -690,6 +696,12 @@
       "System.Text.Json/7.0.2": {
         "dependencies": {
           "System.Text.Encodings.Web": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/System.Text.Json.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.323.6910"
+          }
         }
       },
       "LivroMente.Domain/1.0.0": {

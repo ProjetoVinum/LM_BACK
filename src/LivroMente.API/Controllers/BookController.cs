@@ -24,7 +24,8 @@ namespace LivroMente.API.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+      //  [Authorize(Roles = "Admin")]
+       [AllowAnonymous]
         public async Task<IActionResult> Post(BookViewModel book)
         {
             var book1 = _mapper.Map<Book>(book);
